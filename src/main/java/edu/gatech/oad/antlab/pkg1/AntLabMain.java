@@ -50,6 +50,7 @@ public class AntLabMain {
         ant21 = new AntLab21();
         ant22 = new AntLab22();
         ant31 = new AntLab31();
+        ant33 = new AntLab33();
 
 
     }
