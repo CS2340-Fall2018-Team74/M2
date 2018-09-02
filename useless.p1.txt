@@ -1,2 +1,0 @@
-some useless info that we will delete.
-git remote add origin https://github.com/CS2340-Fall2018-Team74/M2.git
