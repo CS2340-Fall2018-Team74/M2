@@ -12,6 +12,7 @@ public class Person6 {
     /** Holds the persons real name */
     private String name;
     /**t
+    /**
      * The constructor, takes in the persons
      * name
      * @param pname the person's real name
@@ -32,6 +33,7 @@ public class Person6 {
     private String calc(String input) {
         //Person 5 put your implementation here
         return input.substring(2, input.length()) + input.substring(0, 2);
+        return null;
     }
 
     /**
