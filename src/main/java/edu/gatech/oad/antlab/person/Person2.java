@@ -8,7 +8,7 @@ import java.util.HashSet;
  *  returns their name and a
  *  modified string 
  *
- * @author Bob
+ * @author Xiaohong Chen
  * @version 1.1
  */
 public class Person2 {
