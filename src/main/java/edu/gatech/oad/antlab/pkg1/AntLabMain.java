@@ -40,12 +40,6 @@ public class AntLabMain {
     private AntLab31 ant31;
 
     /**
-     * antlab33.java message class
-     */
-    private AntLab33 ant33;
-
-
-    /**
      * the constructor that intializes all the helper classes
      */
     public AntLabMain() {
@@ -55,7 +49,6 @@ public class AntLabMain {
         ant21 = new AntLab21();
         ant22 = new AntLab22();
         ant31 = new AntLab31();
-        ant33 = new AntLab33();
 
 
     }
