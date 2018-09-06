@@ -39,14 +39,12 @@ public class AntLabMain {
      */
     private AntLab31 ant31;
 
-<<<<<<< HEAD
-=======
     /**
      * antlab33.java message class
      */
     private AntLab33 ant33;
 
->>>>>>> origin/master
+
 
     /**
      * the constructor that intializes all the helper classes
@@ -58,10 +56,8 @@ public class AntLabMain {
         ant21 = new AntLab21();
         ant22 = new AntLab22();
         ant31 = new AntLab31();
-<<<<<<< HEAD
-=======
         ant33 = new AntLab33();
->>>>>>> origin/master
+
 
 
     }
@@ -96,12 +92,9 @@ public class AntLabMain {
         Person5 p5 = new Person5("P5");
         toPrint += p5.toString("gburdell5");
 
-<<<<<<< HEAD
-=======
         Person6 p6 = new Person6("Mai Pham");
         toPrint += p6.toString("mpham33");
 
->>>>>>> origin/master
         System.out.println(toPrint);
 
 
@@ -116,9 +109,4 @@ public class AntLabMain {
         new AntLabMain().printOutMessage();
 
     }
-
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
 }
