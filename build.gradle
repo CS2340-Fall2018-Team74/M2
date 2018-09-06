@@ -5,14 +5,21 @@
  * Learn how to create Gradle builds at https://guides.gradle.org/creating-new-gradle-builds/
  */
 apply plugin: 'java'
+defaultTasks 'jar'
+
+repositories {
+    flatDir {
+        dirs 'lib'
+    }
+}
 
 dependencies {
-
+	compile name: 'resources'
 }
 
 jar {
 	manifest {
 		attributes 'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntlabMain', 
-		'Class-Path' : '../../lib/resources.jar'
+		'Class-Path': 'lib/resources.jar'
 	}
 }
