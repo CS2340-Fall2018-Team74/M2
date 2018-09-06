@@ -35,7 +35,7 @@ public class Person4 {
       int i = 0;
       while (i < input.length()){
         char add = (char) (input.charAt(i) + 1);
-        result = result + add);
+        result = result + add;
         i++;
       }
       return result;
