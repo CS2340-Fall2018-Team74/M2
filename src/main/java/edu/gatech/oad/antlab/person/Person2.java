@@ -1,11 +1,16 @@
 package edu.gatech.oad.antlab.person;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Random;
+import java.util.Set;
+
 /**
  *  A simple class for person 2
  *  returns their name and a
  *  modified string 
  *
- * @author Bob
+ * @author Xiaohong Chen
  * @version 1.1
  */
 public class Person2 {
