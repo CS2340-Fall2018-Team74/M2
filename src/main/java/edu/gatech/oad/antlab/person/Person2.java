@@ -1,11 +1,14 @@
 package edu.gatech.oad.antlab.person;
-
+import java.util.Random;
+import java.util.Set;
+import java.util.ArrayList;
+import java.util.HashSet;
 /**
  *  A simple class for person 2
  *  returns their name and a
  *  modified string 
  *
- * @author Bob
+ * @author Xiaohong Chen
  * @version 1.1
  */
 public class Person2 {
@@ -31,7 +34,22 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-	  return null;
+		String answer = "";
+		ArrayList<Integer> result = new ArrayList<>();
+		Set<Integer> used = new HashSet<Integer>();
+		Random gen = new Random();
+		for (int i = 0; i < input.length(); i++) {
+			int newRandom;
+			do {
+				newRandom = gen.nextInt(input.length());
+			} while (used.contains(newRandom));
+			result.add(newRandom);
+			used.add(newRandom);
+		}
+		for (int i = 0; i < input.length(); i++) {
+			answer += input.charAt(result.get(i));
+		}
+		return answer;
 	}
 	/**
 	 * Return a string rep of this object
@@ -44,4 +62,6 @@ public class Person2 {
 	public String toString(String input) {
 	  return name + calc(input);
 	}
+
+
 }
